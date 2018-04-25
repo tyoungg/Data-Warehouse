@@ -1,6 +1,7 @@
-#UF_B_STDNT_TERM
+# UF_B_STDNT_TERM
 
 **Description:**
+
 UF_B_STDNT_TERM is a bridge table for the student's academic career enrollment terms. This only provides the term enrollment information bridge to the UF_D_TERM table based on the Academic Career program status of ACTIVE.  Join from fact to bridge based on PERSON_SID and where TERM_CD between the Effective Term and End Effective Term on the fact. Can bridge outwards to UF_D_TERM for term information based on TERM_SID. Additional attributes are on the bridge for information relative to the enrollment career term.					
 
 | Column Name        | Data Type    | Data Length | Precision | Description                                                                                                                          | 

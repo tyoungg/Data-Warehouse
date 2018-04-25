@@ -1,6 +1,7 @@
 # UF_B_PERSON_STDNT_GRP
 
 **Description:**
+
 UF_B_PERSON_STDNT_GRP maintains the effective starting date and effective end date of a person's student group and includes the history of the student groups. This is a bridge table to be joined between the fact table by PERSON_SID and the UF_D_STDNT_GROUP dimension. Student groups back to the person for tagging.					
 					
 					
